@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#board {
+  display: grid;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  display: flex;
+  border: 1px solid #333;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.X {
+  color: #f00;
+}
+
+.O {
+  color: #00f;
+}
+
+.winning-cell {
+  font-size: 2em;
+  background-color: lightgreen;
+}
